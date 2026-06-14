@@ -1,0 +1,10 @@
+---
+distribution_type: container
+container_release_tag: 0.0.5
+container_pull_registry: nexus3.o-ran-sc.org:10004
+container_push_registry: nexus3.o-ran-sc.org:10002
+project: ric-app/qp
+ref: 30a9743fdfd0ef62164c7ea74a4a120cb1c86852
+containers:
+    - name: ric-app-qp
+      version: 0.0.5
